@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "22rdjZ2TLwQ68jthaV/yqz3DKEvGsKKjqsIMM4fBX90x2Zr7y/iE9cpBqkF5ohbnldSC9iJMGBhrIQlJDSR5Nw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\MvcProject\\MvcProject\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\autofac\\8.1.0\\autofac.8.1.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

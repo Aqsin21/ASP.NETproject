@@ -1,0 +1,6 @@
+C:\Users\HP\Desktop\MvcProject\MvcProject\Services.Implementation\obj\Debug\net8.0\Services.Implementation.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\MvcProject\MvcProject\Services.Implementation\obj\Debug\net8.0\Services.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\MvcProject\MvcProject\Services.Implementation\obj\Debug\net8.0\Services.Implementation.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\MvcProject\MvcProject\Services.Implementation\obj\Debug\net8.0\Services.Implementation.AssemblyInfo.cs
+C:\Users\HP\Desktop\MvcProject\MvcProject\Services.Implementation\obj\Debug\net8.0\Services.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\MvcProject\MvcProject\Services.Implementation\obj\Debug\net8.0\Services.Implementation.sourcelink.json

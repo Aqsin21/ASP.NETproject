@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CvResume")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6ce23c2bad03d15e54156576dcdf9d0d0dbf607")]
 [assembly: System.Reflection.AssemblyProductAttribute("CvResume")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CvResume")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

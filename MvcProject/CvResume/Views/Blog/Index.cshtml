@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="col-md-8">
+    <div class="inside-sec">
+        <!-- BIO AND SKILLS -->
+        <h5 class="tittle">BLOG</h5>
+
+        <!-- Blog -->
+        <section class="blog blog-page padding-20 padding-top-50 padding-bottom-50 ">
+
+            <!-- Blog Post -->
+            @foreach (var item in Model)
+            {
+
+                <article>
+                    <img class="img-responsive" src="~/assets/@item.ImagePath)" alt="">
+                    <div class="post-info">
+                        <div class="post-in">
+                            <div class="extra"> <span><i class="icon-calendar"></i>@item.PublishDate</span> <span class="margin-left-15"><i class="icon-user"></i>Admin</span> <span class="margin-left-15"><i class="icon-bubbles"></i> Featured</span></div>
+                            <a href="#." class="tittle-post"> @item.Title</a>
+                            <p>@item.Body</p>
+                            <a href="#." class="btn-1">Read MOre <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+            }
+
+
+
+            <!-- Pagination -->
+            <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </main>

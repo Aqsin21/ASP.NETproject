@@ -1,0 +1,6 @@
+C:\Users\HP\Desktop\MvcProject\MvcProject\Persistance\obj\Debug\net8.0\Persistance.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\MvcProject\MvcProject\Persistance\obj\Debug\net8.0\Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\MvcProject\MvcProject\Persistance\obj\Debug\net8.0\Persistance.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\MvcProject\MvcProject\Persistance\obj\Debug\net8.0\Persistance.AssemblyInfo.cs
+C:\Users\HP\Desktop\MvcProject\MvcProject\Persistance\obj\Debug\net8.0\Persistance.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\MvcProject\MvcProject\Persistance\obj\Debug\net8.0\Persistance.sourcelink.json
