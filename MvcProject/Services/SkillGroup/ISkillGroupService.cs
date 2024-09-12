@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Services.SkillGroup
 {
-   public  interface IServiceSkillGroup
+   public  interface ISkillGroupService
     {
         Task<IEnumerable<SkillGroupGetAll>> GetAllAsync(CancellationToken cancellationToken = default);
     }

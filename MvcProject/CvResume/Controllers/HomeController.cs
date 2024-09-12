@@ -28,7 +28,7 @@ namespace CvResume.Controllers
             var services = await serviceService.GetAllAsync();
             var skills = await skillService.GetAllAsync();
 
-            var vm = new HomeGetAllViewModel
+            var vm = new HomeGetAllWiewModel
             {
                 Skills = skills,
                 Services = services
@@ -37,6 +37,7 @@ namespace CvResume.Controllers
 
             return View(vm);
         }
+
 
 
         public IActionResult Contact()

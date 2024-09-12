@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 using System.Web;
 using Services.Implementation.Registration;
 using Services.Common;
+using Domain.Configurations;
+using Microsoft.Extensions.Options;
 
 
 
@@ -26,7 +25,7 @@ namespace Services.Implementation.Common
             ha = MD5.Create();
             csp = TripleDES.Create();
 
-            var keyBytes = ha.ComputeHash(Encoding.UTF8.GetBytes($"{this.options.Key}202$"));
+            var keyBytes = ha.ComputeHash(Encoding.UTF8.GetBytes($"{this.options.key}202$"));
             var newKeyBytes = new byte[24]; // TripleDES: 192 bit = 24 byte
             Array.Copy(keyBytes, newKeyBytes, Math.Min(keyBytes.Length, newKeyBytes.Length));
             csp.Key = newKeyBytes;

@@ -214,7 +214,7 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.0": {
+      "Microsoft.Extensions.Options/8.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -294,6 +294,38 @@
         },
         "runtime": {
           "bin/placeholder/Repositories.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Autofac": "8.1.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
+      },
+      "Services.Implementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Autofac": "8.1.0",
+          "Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Repositories": "1.0.0",
+          "Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.Implementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Implementation.dll": {}
         }
       }
     }
@@ -644,10 +676,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Options/8.0.0": {
-      "sha512": "JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
+    "Microsoft.Extensions.Options/8.0.2": {
+      "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
       "type": "package",
-      "path": "microsoft.extensions.options/8.0.0",
+      "path": "microsoft.extensions.options/8.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -686,7 +718,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.8.0.0.nupkg.sha512",
+        "microsoft.extensions.options.8.0.2.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -759,6 +791,16 @@
       "type": "project",
       "path": "../Repositories/Repositories.csproj",
       "msbuildProject": "../Repositories/Repositories.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
+    },
+    "Services.Implementation/1.0.0": {
+      "type": "project",
+      "path": "../Services.Implementation/Services.Implementation.csproj",
+      "msbuildProject": "../Services.Implementation/Services.Implementation.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -767,7 +809,8 @@
       "Domain >= 1.0.0",
       "EntityFramework.Metadata >= 1.0.2",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
-      "Repositories >= 1.0.0"
+      "Repositories >= 1.0.0",
+      "Services.Implementation >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -808,6 +851,9 @@
             },
             "C:\\Users\\HP\\Desktop\\MvcProject\\MvcProject\\Repositories\\Repositories.csproj": {
               "projectPath": "C:\\Users\\HP\\Desktop\\MvcProject\\MvcProject\\Repositories\\Repositories.csproj"
+            },
+            "C:\\Users\\HP\\Desktop\\MvcProject\\MvcProject\\Services.Implementation\\Services.Implementation.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\MvcProject\\MvcProject\\Services.Implementation\\Services.Implementation.csproj"
             }
           }
         }

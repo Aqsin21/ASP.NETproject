@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dEHC4I0IsUiYr8hS39cvln3XQKq3Mtx4NZtF7is6dZD3YTKSS67Qc1GWBkSWIGP2koWXwSF6ix6yn7W1+aBcJw==",
+  "dgSpecHash": "FhTgal1D5hO001tBk8uNHjL9BlKdCJpE7O1WEBorkYl3OrPa8ivpyDprS+tTGFrNljqoEMI9ggWq6tcUEh32gQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\MvcProject\\MvcProject\\Persistance\\Persistance.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
   ],

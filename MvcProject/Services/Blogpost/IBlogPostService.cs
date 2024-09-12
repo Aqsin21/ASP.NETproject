@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Services.Blogpost
 {
-  public  interface IBlogPostGetAll
+  public  interface IBlogPostService
     {
+        IEnumerable<object> GetAll();
         Task<IEnumerable<BlogPostGetAll>> GetAllAsync(CancellationToken cancellationToken = default); 
 
     }

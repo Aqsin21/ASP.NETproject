@@ -5,7 +5,7 @@ namespace CvResume.Models
 {
     public class HomeGetAllWiewModel
     {
-        public IEnumerable<SkillGetAll> Skills { get; set; }
-        public IEnumerable<ServiceGetAll> Services { get; set; }
+        public required IEnumerable<SkillGetAll> Skills { get; set; }
+        public required IEnumerable<ServiceGetAll> Services { get; set; }
     }
 }
