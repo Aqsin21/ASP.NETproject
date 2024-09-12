@@ -2,6 +2,7 @@
 using Persistance;
 using Autofac.Extensions.DependencyInjection;
 using Services.Implementation.Registration;
+using Persistence;
 
 namespace CvResume
 {
