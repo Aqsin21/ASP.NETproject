@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 namespace Repositories.Common
 {
-    public class AsyncRepository<T> : IAsyncRepository<T>
+    public abstract class AsyncRepository<T> : IAsyncRepository<T>
          where T : class
     {
         private readonly DbContext db;

@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\" />
+    <Folder Include="Areas\Admin\Views\DashBoard\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

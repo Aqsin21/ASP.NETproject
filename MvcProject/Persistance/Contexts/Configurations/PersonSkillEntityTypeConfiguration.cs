@@ -15,7 +15,6 @@ namespace Persistance.Contexts.Configurations
         {
             builder.Property(m => m.PersonId).HasColumnType("int");
             builder.Property(m => m.SkillId).HasColumnType("int");
-            builder.Property(m => m.Mode).HasColumnType("int").IsRequired();
             builder.Property(m => m.Percentage).HasColumnType("tinyint");
             builder.Property(m => m.CreatedAt).HasColumnType("datetime").IsRequired();
             builder.Property(m => m.CreatedBy).HasColumnType("int").IsRequired();

@@ -11,9 +11,9 @@ namespace Services.Implementation
 {
     public class BlogPostService : IBlogPostService
     {
-        private readonly IBlogPostService blogPostRepository;
+        private readonly IBlogPostRepository blogPostRepository;
 
-        public BlogPostService(IBlogPostService blogPostRepository)
+        public BlogPostService(IBlogPostRepository blogPostRepository)
         {
             this.blogPostRepository = blogPostRepository;
         }
@@ -25,7 +25,7 @@ namespace Services.Implementation
 
         public async Task<IEnumerable<BlogPostGetAll>> GetAllAsync(CancellationToken cancellationToken = default)
         {
-            return await IBlogPostRepository.GetAll()
+            return await blogPostRepository.GetAll()
                 .Select(blogPost => new BlogPostGetAll
                 {
                     Id = blogPost.Id,
